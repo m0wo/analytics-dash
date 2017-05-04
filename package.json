@@ -1,0 +1,16 @@
+{
+  "name": "realtime-analytics",
+  "version": "1.0.0",
+  "description": "Realtime analytics dashboard",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Errington <contact@alex-errington.co.uk> (http://alex-errington.co.uk)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  }
+}
